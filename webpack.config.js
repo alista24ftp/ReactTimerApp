@@ -40,7 +40,7 @@ module.exports = {
           presets: ['react', 'es2015']
         },
         test: /\.jsx?$/,
-        exclude: /(node_modules|bower_conponents)/
+        exclude: /(node_modules|bower_components)/
       }
     ]
   },
