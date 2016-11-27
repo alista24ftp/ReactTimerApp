@@ -12,6 +12,13 @@ var Controls = React.createClass({
     };
   },
 
+  // will run when its receives updated props (from parent)
+  /*
+  componentWillReceiveProps: function(newProps){
+    console.log('component will receive props', newProps.countdownStatus);
+  },
+  */
+
   render: function(){
     var {countdownStatus} = this.props;
     var renderStartStopButton = () => {
